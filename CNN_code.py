@@ -3,6 +3,15 @@
 Created on Tue Jul 12 17:25:42 2016
 
 @author: Shrivatsa
+
+This is a CNN code that performs the following actions:
+
+1) Import images from the input dataset
+2) Divides the set into training and test set using K fold method
+3) Trains the model on the input dataset
+4) Calculates the efficiency of the model using the test dataset
+
+
 """
 
 train_data_dir = 'data/Emotion/Arousal/train'
